@@ -13,15 +13,16 @@ public class Produto {
 
     public void adicionarProduto(int quantidade){
         
-        int novaQuantidade = this.quantidade += quantidade;
-
-        System.out.printf("Updated data: %s, R$ %.2f, %d units, Total: %.2f\n", nome, preco, novaQuantidade, (novaQuantidade * preco));
+        this.quantidade += quantidade;
     }
 
     public void removerProduto(int quantidade){
 
-        int QuantidadePraRemover = this.quantidade - quantidade;
+        this.quantidade -= quantidade;
+    }
 
-        System.out.printf("Updated data: %s, R$ %.2f, %d units, Total: %.2f\n", nome, preco, QuantidadePraRemover, (QuantidadePraRemover * preco));
+    public String toString(){
+
+        return nome;
     }
 }
