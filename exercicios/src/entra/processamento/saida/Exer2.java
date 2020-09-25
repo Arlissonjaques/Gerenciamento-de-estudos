@@ -4,6 +4,14 @@ import java.util.Scanner;
 
 public class Exer2 {
 
+/*
+    2) Faça um programa que:
+       - Leia a cotação do dólar
+       - Leia um valor em dólares
+       - Converta esse valor para Real
+       - Mostre o resultado
+*/
+
     public static void exercicio2(){
 
         Scanner input = new Scanner(System.in);
