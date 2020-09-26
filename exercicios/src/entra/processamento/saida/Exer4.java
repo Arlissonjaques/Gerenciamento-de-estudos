@@ -17,7 +17,7 @@ public class Exer4 {
         operações de processamento, sendo seis para as adições e seis
         para as multiplicações.
 */
-    public static void Exercicio4(){
+    public static void exercicio4(){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Digite o valor de A: ");
