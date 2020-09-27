@@ -1,8 +1,8 @@
-import entra.processamento.saida.Exer9;
+import entra.processamento.saida.Exer10;
 
 public class Main {
 
     public static void main(String[] args) {
-        Exer9.exercicio9();
+        Exer10.exercicio10();
     }
 }
