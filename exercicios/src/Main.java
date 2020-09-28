@@ -1,8 +1,8 @@
-import entra.processamento.saida.Exer10;
+import estrutura.condicionais.Exer11;
 
 public class Main {
 
     public static void main(String[] args) {
-        Exer10.exercicio10();
+        Exer11.exercicio11();
     }
 }
