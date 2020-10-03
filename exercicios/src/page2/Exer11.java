@@ -1,4 +1,4 @@
-package estrutura.condicionais;
+package page2;
 
 import java.util.Scanner;
 

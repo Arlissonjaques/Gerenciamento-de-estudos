@@ -1,4 +1,4 @@
-package entra.processamento.saida;
+package page1;
 
 
 import java.util.Scanner;
