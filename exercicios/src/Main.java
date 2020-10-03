@@ -1,8 +1,8 @@
-import page2.Exer14;
+import page2.Exer15;
 
 public class Main {
 
     public static void main(String[] args) {
-        Exer14.exercicio14();
+        Exer15.exercicio15();
     }
 }
