@@ -1,4 +1,4 @@
-import page2.Exer22;
+import level2.Exer22;
 
 public class Main {
 
