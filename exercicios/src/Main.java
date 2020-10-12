@@ -1,8 +1,8 @@
-import level3.Exer23;
+import level3.Exer24;
 
 public class Main {
 
     public static void main(String[] args) {
-        Exer23.exercicio23();
+        Exer24.exercicio24();
     }
 }
