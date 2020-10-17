@@ -5,7 +5,12 @@ class ChangeString
     end
 
     def replaceString(partString, substitute)
-        @txt[partString] = substitute
-        puts @txt
+        newTxt = @txt
+        newTxt[partString] = substitute
+        puts newTxt
+    end
+
+    def upperCase()
+        puts @txt.upcase
     end
 end
