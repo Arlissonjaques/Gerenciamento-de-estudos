@@ -17,5 +17,10 @@ class ChangeArrey
         end
     end
 
+    def addElement(element)
+        $arr << element
+        puts $arr
+    end
+
 end
 
