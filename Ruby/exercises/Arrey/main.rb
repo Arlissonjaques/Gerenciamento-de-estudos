@@ -1,1 +1,5 @@
-arr = ["Mateus", "Marcos", "Lucas", "João", "Tiago", "Pedro", "Gabriel", "Felipe"]
+require_relative 'arrays.rb'
+
+obj = ChangeArrey.new
+
+obj.findElement("Mateus")
