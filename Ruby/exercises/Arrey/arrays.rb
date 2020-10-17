@@ -1,7 +1,7 @@
 $arr = ["Mateus", "Marcos", "Lucas", "João", "Tiago", "Pedro", "Gabriel", "Felipe"]
 
 class ChangeArrey
-    
+
     def findElement(element)
         index = 0
 
@@ -18,15 +18,28 @@ class ChangeArrey
     end
 
     def addElement(element)
-        puts "-------------------------"
         $arr << element
-        puts $arr
+        print "#{$arr}\n"
     end
 
     def deleteElement(element)
-        puts "-------------------------"
         $arr.delete(element)
-        puts $arr
+        print "#{$arr}\n"
+    end
+
+    def replaceElement(element, substitute)
+        index = 0
+        if $arr.include?(element)
+            while index < $arr.length
+                if $arr[index] == element
+                    $arr[index] = substitute
+                end
+                index += 1
+            end
+            print "#{$arr}\n"
+        else
+            puts "Elemento não está no arrey"
+        end
     end
 
 end

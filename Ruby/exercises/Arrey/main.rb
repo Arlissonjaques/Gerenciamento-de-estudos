@@ -5,3 +5,4 @@ obj = ChangeArrey.new
 obj.findElement("Mateus")
 obj.addElement("Jonny")
 obj.deleteElement("Jonny")
+obj.replaceElement("Mateus", "Messi")
