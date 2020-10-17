@@ -18,7 +18,14 @@ class ChangeArrey
     end
 
     def addElement(element)
+        puts "-------------------------"
         $arr << element
+        puts $arr
+    end
+
+    def deleteElement(element)
+        puts "-------------------------"
+        $arr.delete(element)
         puts $arr
     end
 
