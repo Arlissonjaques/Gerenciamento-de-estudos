@@ -20,5 +20,10 @@ class ChangeHash
         puts @hash
     end
 
+    def remove(key)
+        @hash.delete(key)
+        puts @hash
+    end
+
 end
 
