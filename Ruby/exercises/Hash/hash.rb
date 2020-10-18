@@ -15,6 +15,10 @@ class ChangeHash
         end
     end
 
-    
+    def add(key, value)
+        @hash[key] = value
+        puts @hash
+    end
+
 end
 
