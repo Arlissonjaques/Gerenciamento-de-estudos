@@ -25,5 +25,10 @@ class ChangeHash
         puts @hash
     end
 
+    def replace(key, value)
+        @hash[key] = value
+        puts @hash
+    end
+
 end
 
