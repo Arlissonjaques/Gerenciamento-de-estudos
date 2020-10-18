@@ -1,8 +1,10 @@
 require_relative 'string.rb'
 
-txt = "o homem é livre para fazer o que quer, mas não para querer o que quer"
+txt = "O Homem É Livre Para Fazer O Que Quer, Mas Não Para Querer O Que Quer"
 
 obj = ChangeString.new(txt)
 
-obj.replaceString("homem", "ser humano")
+obj.findTxt("Homem")
+obj.replaceString("Homem", "Ser Humano")
 obj.upperCase()
+obj.downCase()
